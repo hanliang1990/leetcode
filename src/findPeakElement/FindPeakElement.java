@@ -1,11 +1,5 @@
 public class FindPeakElement {
 	
-	public static void main(String[] args){
-		int[] num={3,4,3,2,1};
-		FindPeakElement fpe = new FindPeakElement();
-		System.out.println(fpe.findPeakElement(num));
-	}
-	
 	public int findPeakElement(int[] num) {
 		int size = num.length;
 		if(size==1)return 0;
